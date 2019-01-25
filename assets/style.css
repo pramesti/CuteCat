@@ -1,0 +1,84 @@
+
+.bg{
+    background-size: cover;
+    height: 870px;
+    background:url(./bg.jpg) no-repeat;
+}
+.head {
+    position: absolute;
+    text-align: center;
+    height: 100vh;
+    padding: 10vh 0;
+    background-color: 	rgb(105, 105, 105, .7);
+}
+
+.img-gallery {
+    padding: 0 5px;
+}
+
+.gallery > .row > .col-6:nth-child(odd) {
+    border-right: 1px solid black;
+}
+
+.gallery > .row > .col-6:nth-child(even) {
+    border-left: 1px solid black;
+}
+
+nav {
+    height : 80px;
+    background-color: 	rgb(105, 105, 105, .7);
+    padding-top: 10px;
+}
+nav a {
+    font-size : 30px;
+    color :  #303030;
+}
+
+li{
+    padding-top: 0vh;
+    margin-left: 900px;
+    font-size: 4px;
+}
+
+.nav-item a {
+    font-size: 24px ;
+}
+
+.navbar-brand {
+    margin-left : 70px;
+    padding: 0px;
+    position: inline-block;
+}
+.navbar-brand img {
+    float: left;
+    position: relative;
+}
+.navbar-brand span {
+    margin-left : 5px;
+    top: 20px;
+    position: relative;
+}
+
+.pov {
+    padding: 200px;
+}
+
+.text-title {
+    font-weight: bold;
+}
+
+.text-utama {
+    padding: 60px;
+    font-size: 75px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+.penjelasan {
+    font-size: 20px;
+}
+
+.wrapper-gallery {
+    padding: 10px;
+}
